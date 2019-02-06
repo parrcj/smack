@@ -21,6 +21,7 @@
 		7C5BDEAC220A0550004DD884 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDEAB220A0550004DD884 /* CreateAccountVC.swift */; };
 		7C5BDEAF220B1869004DD884 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDEAE220B1869004DD884 /* AuthService.swift */; };
 		7C5BDEB1220B333B004DD884 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDEB0220B333B004DD884 /* RoundedButton.swift */; };
+		7C5BDEB3220B5F40004DD884 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDEB2220B5F40004DD884 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		7C5BDEAB220A0550004DD884 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		7C5BDEAE220B1869004DD884 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		7C5BDEB0220B333B004DD884 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		7C5BDEB2220B5F40004DD884 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		92CC93F46165E67AE63107D2 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				7C5BDEAE220B1869004DD884 /* AuthService.swift */,
+				7C5BDEB2220B5F40004DD884 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				7C0C96622208CF23007DC7CA /* ChannelVC.swift in Sources */,
 				7C5BDEB1220B333B004DD884 /* RoundedButton.swift in Sources */,
 				7C0C96602208CF15007DC7CA /* ChatVC.swift in Sources */,
+				7C5BDEB3220B5F40004DD884 /* UserDataService.swift in Sources */,
 				7C5BDEAC220A0550004DD884 /* CreateAccountVC.swift in Sources */,
 				7C5BDEAF220B1869004DD884 /* AuthService.swift in Sources */,
 				7C5BDEAA2209FF00004DD884 /* LoginVC.swift in Sources */,
